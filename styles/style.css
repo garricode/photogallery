@@ -1,0 +1,94 @@
+html {
+    font-size: 100%;
+    background: #F2F2F2;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0c0c0c;
+    background-color: #fbfbfd;
+    max-width: 960px;
+    margin: auto;
+    border: 0 solid black;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.header {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.content1 {
+    position: relative;
+    min-height: 1px;
+    padding-right: auto;
+    padding-left: auto;
+    margin: auto;
+    max-width: 80%;
+    float: left;
+}
+
+.content2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: auto;
+    padding-left: auto;
+    margin: auto;
+    max-width: 80%;
+    float: left;
+}
+
+.footer {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+.img1 {
+    float: left;
+    width: auto;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.thumbnail {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    border-radius: 2.5%;
+}
+
+.thumbnail:hover {
+    border: 1px solid #777;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 2.5%;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
