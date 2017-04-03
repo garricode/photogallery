@@ -1,100 +1,57 @@
-html {
-    font-size: 100%;
-    background: #F2F2F2;
-    min-height: 100%;
-    background: #7d7e7d;
-    background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
-    background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
-    background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    line-height: 28px;
-    color: #0c0c0c;
-    background-color: #fbfbfd;
-    max-width: 960px;
-    margin: auto;
-    border: 0 solid black;
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.header {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
-    margin: auto;
-    float: left;
-    text-align: center;
-}
-
-.content1 {
-    position: relative;
-    min-height: 1px;
-    padding-right: auto;
-    padding-left: auto;
-    margin: auto;
-    max-width: 80%;
-    float: left;
-}
-
-.content2 {
-    position: relative;
-    min-height: 1px;
-    padding-right: auto;
-    padding-left: auto;
-    margin: auto;
-    max-width: 80%;
-    float: left;
-}
-
-.footer {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-}
-
-.img1 {
-    float: left;
-    width: auto;
-    margin: auto;
-    padding: 15px;
-    text-align: center;
-}
-
-.thumbnail {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    border-radius: 2.5%;
-}
-
-.thumbnail:hover {
-    border: 1px solid #777;
-}
-
-.thumbnail img {
-    width: 100%;
-    height: auto;
-    border-radius: 2.5%;
-}
-
-.desc {
-    padding: 15px;
-    text-align: center;
-}
+                            html {
+                            font-size: 100%;
+                        }
+                        
+                        body {
+                            color: #F2F1EF;
+                            background: rgb(63, 76, 107);
+                            background: -moz-linear-gradient(-45deg, rgba(63, 76, 107, 1) 0%, rgba(63, 76, 107, 1) 100%);
+                            background: -webkit-linear-gradient(-45deg, rgba(63, 76, 107, 1) 0%, rgba(63, 76, 107, 1) 100%);
+                            background: linear-gradient(135deg, rgba(63, 76, 107, 1) 0%, rgba(63, 76, 107, 1) 100%);
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b', GradientType=1);
+                            /* I find it more responsive with the thumbnails if I set auto the widht for the body*/
+                            width: auto;
+                            margin: auto;
+                            border: 0 solid black;
+                        }
+                        
+                        h1 {
+                            font-family: 'Arimo', sans-serif;
+                            font-weight: 500;
+                            line-height: 1.1;
+                            color: inherit;
+                            margin-top: 20px;
+                            margin-bottom: 10px;
+                            font-size: 36px;
+                        }
+                        
+                        footer {
+                            font-family: 'Open Sans', sans-serif;
+                            color: #E8E8E8;
+                            padding: 20px 0;
+                        }
+                        
+                        .col-md-6 {
+                            /* Removed the default for .col-md-6 and I chose the following*/
+                            text-align: center;
+                            min-height: 1px;
+                        }
+                        
+                        .img-thumbnail {
+                            /* Originally was here display:inline-block but I chose to use text-allign:center*/
+                            text-align: center;
+                            max-width: 100%;
+                            /* Originally, height was auto, and padding 4, but I chose change it*/
+                            height: 180px;
+                            /* I chose to adjust a bit the padding for better looking, originally was 6px */
+                            padding: 1%;
+                            /* There was not margin thing but I chose add*/
+                            margin-bottom: .5%;
+                            margin-left: .5%;
+                            line-height: 1.42857143;
+                            background-color: #fff;
+                            border: 1px solid #ddd;
+                            border-radius: 4px;
+                            -webkit-transition: all .2s ease-in-out;
+                            -o-transition: all .2s ease-in-out;
+                            transition: all .2s ease-in-out;
